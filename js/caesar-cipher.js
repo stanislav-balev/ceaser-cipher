@@ -1,13 +1,3 @@
-/* 
- * Caesar cipher
- * 
- * Copyright (c) 2017 Project Nayuki
- * All rights reserved. Contact Nayuki for licensing.
- * https://www.nayuki.io/page/caesar-cipher-javascript
- */
-
-"use strict";
-
 
 function doCrypt(isDecrypt) {
 	var shiftText = document.getElementById("shift").value;
