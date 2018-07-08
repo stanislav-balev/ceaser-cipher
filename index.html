@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<script src="./js/bootstrap.min.js"></script>
+	<script type="application/javascript" src="./js/caesar-cipher.js"></script>
+	<title>Caesar cipher</title>
+</head>
+<body>
+<h1>Caesar cipher</h1>
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-md-8 col-lg-8 left-clmn">	
+				<img src="./img/Caesar.png" alt="Caesar">			
+			</div>
+		<div class="col-md-4 col-lg-4 bottom">		
+			<form action="#" method="get" onsubmit="return false;">
+			<div class="row">
+				<div class="col-md-12 col-lg-12 textArea">
+					<label for="text">Message:</label>
+						<textarea class="enjoy-input" id="text">VRATSA SOFTWARE COMMUNITY</textarea>
+				</div>
+				<div class="col-md-6 col-lg-12">
+					<label for="shift">Shift:</label>
+					<input class="enjoy-input" type="text" id="shift" value="13" style="width:4em;"/>
+				<div class="col-md-6 col-lg-6">
+					<input type="button" value="Encrypt" class="encrBtn" onclick="doCrypt(false);"/>
+					<input type="button" value="Decrypt" class="decrpBtn" onclick="doCrypt(true);"/>
+				</div>
+			</div>			
+			</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
